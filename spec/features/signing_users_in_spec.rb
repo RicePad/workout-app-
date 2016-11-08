@@ -9,7 +9,7 @@ RSpec.feature "Signing Users In" do
     scenario 'Users Signs In with valid credentials' do
         visit '/'
         
-         click_link "Log in"
+        click_link "Log in"
         fill_in "Email", with: @john.email
         fill_in "Password", with: @john.password
         
